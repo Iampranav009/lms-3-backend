@@ -2,6 +2,14 @@
 
 Library Management System - Backend
 
+## 🚀 Live Deployment
+**Backend API URL**: https://lms-3-backend.onrender.com
+
+### API Base URL
+```
+https://lms-3-backend.onrender.com/api
+```
+
 ## Description
 This is the backend for the Library Management System, providing a Java-based REST API for managing books, students, and book issues.
 
