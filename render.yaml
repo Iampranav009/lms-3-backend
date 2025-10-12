@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: lms-backend
+    runtime: java
+    buildCommand: javac -cp . SimpleJavaAPI.java LibraryManagement.java
+    startCommand: java SimpleJavaAPI
+    envVars:
+      - key: PORT
+        value: 8000
+
